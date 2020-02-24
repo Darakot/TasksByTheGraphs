@@ -1,0 +1,64 @@
+2020-02-04 23:05:10 INFO  GraphService.<init>:53 - {1010}{22}{33}{55}{55}{44}{44}{88}{66}{66}{1717}{1717}
+2020-02-04 23:05:45 INFO  GraphService.<init>:53 - {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:06:19 INFO  GraphService.<init>:53 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:06:50 INFO  GraphService.<init>:53 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:06:50 INFO  GraphService.<init>:54 - {17=dto.Node@23fe1d71, 33=dto.Node@28ac3dc3, 1=dto.Node@32eebfca, 3=dto.Node@4e718207, 5=dto.Node@1d371b2d, 6=dto.Node@543c6f6d, 22=dto.Node@13eb8acf, 8=dto.Node@51c8530f, 9=dto.Node@7403c468}
+2020-02-04 23:07:33 INFO  GraphService.<init>:53 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:07:33 INFO  GraphService.<init>:54 - {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:10:09 INFO  GraphService.<init>:54 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:10:09 INFO  GraphService.<init>:55 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:10:09 INFO  GraphService.sortByNumberOfParents:61 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:37:56 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:37:56 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:37:56 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:37:56 INFO  GraphService.sortByNumberOfParents:85 - 
+2020-02-04 23:37:56 INFO  GraphService.fromOneParent:94 - Method: fromOneParent child1: 9 child2: 22
+2020-02-04 23:37:56 INFO  GraphService.fromOneParent:96 - result true
+2020-02-04 23:59:47 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-04 23:59:47 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:59:47 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-04 23:59:47 INFO  GraphService.sortByNumberOfParents:89 - zeroParents: [2, 4, 10]
+oneParent: [17, 33, 1, 5, 8, 9]
+tooParents: [3, 6, 22]
+2020-02-04 23:59:47 INFO  GraphService.fromOneParent:96 - Method: fromOneParent child1: 9 child2: 22
+2020-02-04 23:59:47 INFO  GraphService.fromOneParent:98 - result true
+2020-02-05 00:00:44 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-05 00:00:44 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:00:44 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:00:44 INFO  GraphService.sortByNumberOfParents:89 - zeroParents: [2, 4, 10]
+oneParent: [17, 33, 1, 5, 8, 9]
+tooParents: [3, 6, 22]
+2020-02-05 00:00:44 INFO  GraphService.fromOneParent:96 - Method: fromOneParent child1: 9 child2: 22
+2020-02-05 00:00:44 INFO  GraphService.fromOneParent:98 - result true
+2020-02-05 00:00:55 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-05 00:00:55 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:00:55 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:00:55 INFO  GraphService.sortByNumberOfParents:89 - zeroParents: [2, 4, 10]
+oneParent: [17, 33, 1, 5, 8, 9]
+tooParents: [3, 6, 22]
+2020-02-05 00:02:38 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-05 00:02:38 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:02:38 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:02:38 INFO  GraphService.sortByNumberOfParents:89 - zeroParents: [2, 4, 10]
+oneParent: [17, 33, 1, 5, 8, 9]
+tooParents: [3, 6, 22]
+2020-02-05 00:06:33 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-05 00:06:33 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:06:33 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 00:06:33 INFO  GraphService.sortByNumberOfParents:89 - zeroParents: [2, 4, 10]
+oneParent: [17, 33, 1, 5, 8, 9]
+tooParents: [3, 6, 22]
+2020-02-05 03:24:53 INFO  GraphService.<init>:51 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-05 03:24:53 INFO  GraphService.<init>:52 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 03:24:53 INFO  GraphService.sortByNumberOfParents:58 - Method: sortByNumberOfParents
+Maps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-05 03:24:53 INFO  GraphService.sortByNumberOfParents:89 - zeroParents: [2, 4, 10]
+oneParent: [17, 33, 1, 5, 8, 9]
+tooParents: [3, 6, 22]

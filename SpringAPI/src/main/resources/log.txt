@@ -1,0 +1,6 @@
+2020-02-17 20:28:29 INFO  GraphService.<init>:45 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-17 20:28:29 INFO  GraphService.<init>:46 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-17 20:28:29 INFO  MainController.saveGraph:43 - Graph with id g1 created code: 201
+2020-02-17 20:29:01 INFO  GraphService.<init>:45 - inArr: {10 3}{2 3}{3 6}{5 6}{5 17}{4 5}{4 8}{8 9}{6 33}{6 22}{17 22}{17 1}
+2020-02-17 20:29:01 INFO  GraphService.<init>:46 - outMaps: {17=Node(intNodeArr=[5, null]), 33=Node(intNodeArr=[6, null]), 1=Node(intNodeArr=[17, null]), 3=Node(intNodeArr=[10, 2]), 5=Node(intNodeArr=[4, null]), 6=Node(intNodeArr=[3, 5]), 22=Node(intNodeArr=[6, 17]), 8=Node(intNodeArr=[4, null]), 9=Node(intNodeArr=[8, null])}
+2020-02-17 20:29:01 INFO  MainController.saveGraph:43 - Graph with id g1 created code: 201
